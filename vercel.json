@@ -3,7 +3,7 @@
     "version": 2,
     "name": "api_ford",
     "builds": [
-      { "src": "server.js", "use": "@vercel/node" }
+      { "src": "./app/api/index.js", "use": "@vercel/node" }
     ],
     "routes": [
       { "src": "/(.*)", "dest": "./app/api/index.js" }
