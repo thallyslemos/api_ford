@@ -1,9 +1,9 @@
 
 {
     "version": 2,
-    "name": "dahsboard",
+    "name": "api_ford",
     "builds": [
-      { "src": "./app/api/index.js", "use": "@vercel/node" }
+      { "src": "server.js", "use": "@vercel/node" }
     ],
     "routes": [
       { "src": "/(.*)", "dest": "/index.js" }
